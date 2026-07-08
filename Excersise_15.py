@@ -1,0 +1,21 @@
+Name=input("Enter your name: ")
+Hotel_Cost_per_Night=int(input("Enter Hotel Cost per Night :"))
+Number_of_Nights=int(input("Enter Number of Nights :"))
+Food_Expense_per_Day=int(input("Enter Food Expense per Day :"))
+Number_of_Days=int(input("Enter Number of Days :"))
+Travel_Cost=int(input("Enter Travel Cost :"))
+Shopping_Expense=int(input("Enter Shopping Expense :"))
+Hotel_Expense=Hotel_Cost_per_Night * Number_of_Nights
+Food_Expense=Food_Expense_per_Day * Number_of_Days
+Grand_Total_Trip_Cost=Hotel_Expense + Food_Expense + Travel_Cost + Shopping_Expense
+print("\n=====================================")
+print("        TRIP EXPENSE REPORT")
+print("=====================================")
+print("\nTraveller      : ", Name)
+print("\nHotel Expense  : ₹", Hotel_Expense)
+print("Food Expense   : ₹", Food_Expense)
+print("Travel Expense : ₹", Travel_Cost)
+print("Shopping       : ₹", Shopping_Expense)
+print("\n-------------------------------------")
+print("Total Expense  : ","₹", Grand_Total_Trip_Cost)
+print("=====================================")

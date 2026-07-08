@@ -1,0 +1,13 @@
+Student_Name=input("Enter Student Name :")
+Course_Name=input("Enter Course Name :")
+Registration_Fee=float(input("Enter Registration Fee :"))
+Tuition_Fee=float(input("Enter Tuition Fee :"))
+Lab_Fee=float(input("Enter Lab Fee :"))
+Total_Fee=Registration_Fee+Tuition_Fee+Lab_Fee
+print("====================================")
+print("       NETSQUARE SOFTWARES\n           FEE RECEIPT\n")
+print("====================================")
+print(" Student Name     : ",Student_Name,"\n Course Name      : ",Course_Name,"\n Registration Fee : ",Registration_Fee,"\n Tuition Fee      : ",Tuition_Fee,"\n Lab Fee          : ",Lab_Fee)
+print("\n------------------------------------\n")
+print(" Total Fee        : ₹",Total_Fee)
+print("\n====================================")

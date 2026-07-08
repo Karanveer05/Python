@@ -1,0 +1,5 @@
+Employee_Name=input("Enter Employee Name :") 
+Employee_ID=int(input("Enter Employee ID :"))
+Department=input("Enter Department :")
+Salary=float(input("Enter Salary :"))
+print("\nEmployee Name : ", Employee_Name, "\nEmployee ID   : ", Employee_ID, "\nDepartment    : ", Department, "\nSalary        : ", Salary)

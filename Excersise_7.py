@@ -1,0 +1,6 @@
+Student_Name=input("Enter Student Name :")
+Roll_Number=input("Enter Roll Number :")
+English_Marks=input("Enter English Marks :")
+Math_Marks=input("Enter Math Marks :")
+Science_Marks=input("Enter Science Marks :")
+print("\nStudent Report\n","\nStudent Name : ", Student_Name, "\nRoll Number  : ", int(Roll_Number), "\n\nEnglish Marks: ", int(English_Marks), "\nMath Marks   : ",int(Math_Marks), "\nScience Marks: ",int(Science_Marks))
