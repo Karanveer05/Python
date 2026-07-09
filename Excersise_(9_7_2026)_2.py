@@ -1,0 +1,6 @@
+Employee_Name=input("Enter Employee Name :")
+Company_Name=input("Enter Company Name :")
+Designation=input("Enter Designation :")
+Joining_Date=input("Enter Joining Date :")
+Salary=int(input("Enter Salary :"))
+print(f"\nDear {Employee_Name},\n\nCongratulations!\n\nYou have been selected as Software Developer at NetSquare Softwares.\n\nJoining Date : {Joining_Date}\nSalary : ₹{Salary:,}\n\nWe welcome you to our team.\n\nRegards,\n{Designation}")

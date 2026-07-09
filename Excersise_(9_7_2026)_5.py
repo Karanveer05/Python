@@ -1,0 +1,8 @@
+Customer_Name=input("Enter Customer Name :")
+Account_Number=int(input("Enter Account Number :"))
+Branch=input("Enter Branch :")
+IFSC=input("Enter IFSC Code :")
+Balance=float(input("Enter Balance :"))
+print("========================================\n\tPASSBOOK\n========================================")
+print(f"\nAccount Holder : {Customer_Name}\nAccount Number : {Account_Number}\nBranch     : {Branch}\nIFSC Code  : {IFSC}\nBalance    : ₹{Balance:,.2f}\n")
+print("========================================")

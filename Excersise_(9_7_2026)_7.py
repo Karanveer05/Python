@@ -1,0 +1,1 @@
+print("Rahul said,\n\"I love learning Python\"\nTeacher replied,\n'Practice every day'")
