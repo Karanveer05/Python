@@ -7,4 +7,4 @@ if Account_Number == 12345 :
     else:
         print("Incorrect PIN")
 else:
-    print("Wrong account number")
+    print("Wrong Account Number")

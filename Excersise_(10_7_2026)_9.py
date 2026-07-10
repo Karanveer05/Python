@@ -1,4 +1,4 @@
-#Login system
+# Login system
 Admin_id = int(input("Enter your Admin Id : "))
 Passcode=int(input("Enter your Passcode: "))
 if Admin_id == 12345 :
