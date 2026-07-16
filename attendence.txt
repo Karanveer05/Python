@@ -1,1 +1,2 @@
-Name of Student 1 : Karanveer Singh
+Name of Student 1 : 1
+Name of Student 2 : 2
