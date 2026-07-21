@@ -1,0 +1,42 @@
+import numpy as np
+
+# Generate 24 temperature values
+Temperature = np.random.randint(10, 50, 24)
+
+print("-"*50)
+print("Temperature Data")
+print(Temperature)
+print("-"*50)
+print(f"Maximum Temperature : {Temperature.max()} °C")
+print("-"*50)
+print(f"Minimum Temperature : {Temperature.min()} °C")
+print("-"*50)
+print(f"Average Temperature : {Temperature.mean()} °C")
+print("-"*50)
+print("Temperatures Above Average")
+print(Temperature[Temperature > Temperature.mean()])
+print("-"*50)
+print("Temperatures Below Average")
+print(Temperature[Temperature < Temperature.mean()])
+
+# Reshape into 6 rows and 4 columns
+Temperature = Temperature.reshape(6,4)
+
+print("-"*50)
+print("6 x 4 Matrix")
+print(Temperature)
+print("-"*50)
+print("Average Temperature of Each Row")
+print(Temperature.mean(axis=1))
+print("-"*50)
+print("Average Temperature of Each Column")
+print(Temperature.mean(axis=0))
+print("-"*50)
+print("Flattened Array")
+print(Temperature.flatten())
+print("-"*50)
+print("Rounded Temperatures")
+print(np.round(Temperature,1))
+print("-"*50)
+print("Unique Temperatures")
+print(np.unique(Temperature))
