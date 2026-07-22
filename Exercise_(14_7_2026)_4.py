@@ -5,7 +5,7 @@ class BOOK:
         self.Author=Author
         self.Price=Price
     def display(self):
-        print(f"Book Details\n\tBOOK Title = {self.Title}\n\tAuthor = {self.Author} \n\t Price = {self.Price} ")
+        print(f"Book Details\n\tBOOK Title = {self.Title}\n\tAuthor = {self.Author} \n\tPrice = {self.Price} ")
         print("-"*25)
             
     pass

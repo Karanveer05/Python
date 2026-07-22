@@ -18,4 +18,3 @@ Student5=Student("Japanpreet",2315120,"Commerce",80)
 Students=[Student1,Student2,Student3,Student4,Student5]
 for Student in Students :
     Student.display()
-    

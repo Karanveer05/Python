@@ -10,7 +10,7 @@ class Mobile:
     pass
 mobile1=Mobile("Samsung",8 ,64 )
 mobile2=Mobile("Apple",12 ,128 )
-mobile3=Mobile("Nokia",26 ,256 )
+mobile3=Mobile("Nokia",16 ,256 )
 mobile1.display()
 mobile2.display()
 mobile3.display()
