@@ -1,0 +1,26 @@
+Movie,Genre,Rating,Duration,Year,Language,Views
+Pushpa,action,8.2,2.9,2021.0,Telugu,350.0
+RRR,Action,8.8,3.0,2022.0,Telugu,420.0
+KGF Chapter 2,Action,8.4,2.8,2022.0,Kannada,390.0
+Dangal,Sports,8.5,2.7,2016.0,,7.0
+3 Idiots,Comedy,8.4,2.9,2009.0,Hindi,280.0
+Bahubali,Action,8.1,2.6,2015.0,Telugu,70.0
+Drishyam,,8.3,2.4,,Hindi,210.0
+Jawan,Action,7.8,2.8,2023.0,Hindi,
+Pathaan,aCTion,7.6,2.6,2023.0,Hindi,240.0
+Animal,Action,7.9,3.2,2023.0,Hindi,280.0
+Leo,Action,7.8,2.7,2023.0,Tamil,250.0
+Vikram,Thriller,8.4,2.9,2022.0,,30.0
+,Drama,8.3,,2022.0,Kannada,220.0
+,,8.5,2.7,2022.0,Telugu,80.0
+Chhichhore,Comedy,8.3,2.5,2019.0,Hindi,170.0
+PK,Comedy,8.1,2.4,2014.0,Hindi,290.0
+Gadar 2,Action,6.9,2.8,2023.0,Hindi,190.0
+Brahmastra,Fantasy,,2.9,2022.0,Hindi,60.0
+Shershaah,War,8.4,2.3,2021.0,Hindi,210.0
+Sooryavanshi,Action,6.8,2.4,2021.0,Hindi,150.0
+Kalki 2898 AD,Sci-Fi,8.3,3.0,2024.0,Telugu,10.0
+Stree 2,,8.0,2.4,2024.0,Hindi,
+Maharaja,Thriller,8.6,2.3,2024.0,Tamil,140.0
+Thunivu,Action,7.5,2.4,2023.0,Tamil,60.0
+Pushpa 2,Action,8.7,3.2,,Telugu,450.0

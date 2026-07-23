@@ -1,0 +1,4 @@
+Order ID,Food Item,Quantity,Price,Payment Mode,Total
+1,Pizza,2,250,Online,500
+2,Burger,4,150,Offline,600
+3,Pasta,3,200,Online,600
