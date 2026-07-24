@@ -1,5 +1,5 @@
 Movie,Genre,Rating,Duration,Year,Language,Views
-Pushpa,action,8.2,2.9,2021.0,Telugu,350.0
+Pushpa,Action,8.2,2.9,2021.0,Telugu,350.0
 RRR,Action,8.8,3.0,2022.0,Telugu,420.0
 KGF Chapter 2,Action,8.4,2.8,2022.0,Kannada,390.0
 Dangal,Sports,8.5,2.7,2016.0,,7.0
@@ -7,7 +7,7 @@ Dangal,Sports,8.5,2.7,2016.0,,7.0
 Bahubali,Action,8.1,2.6,2015.0,Telugu,70.0
 Drishyam,,8.3,2.4,,Hindi,210.0
 Jawan,Action,7.8,2.8,2023.0,Hindi,
-Pathaan,aCTion,7.6,2.6,2023.0,Hindi,240.0
+Pathaan,Action,7.6,2.6,2023.0,Hindi,240.0
 Animal,Action,7.9,3.2,2023.0,Hindi,280.0
 Leo,Action,7.8,2.7,2023.0,Tamil,250.0
 Vikram,Thriller,8.4,2.9,2022.0,,30.0

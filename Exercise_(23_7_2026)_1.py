@@ -43,3 +43,8 @@ plt.hist(Salary,bins="auto")
 plt.title("Histogram → Salary Distribution.")
 plt.tight_layout()
 plt.show()
+# IT Sector Employees are Highly Paid
+# jaipur,pune,delhi has equal employee rate
+# Most Employee Got Salary Around 60000-65000
+# Bhopal has lowest employee rate
+# HR sector employee gets lower salary as that of ohter sectors

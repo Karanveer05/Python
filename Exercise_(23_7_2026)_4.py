@@ -1,0 +1,41 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df=pd.read_csv("Netflix_Content_Analytics_60.csv")
+df["Rating"]=df["Rating"].fillna(df["Rating"].mean())
+df=df.drop_duplicates()
+df=df.dropna()
+df.to_csv("Netflix_Content_Analytics_60.csv",index=False)
+print(df.duplicated().sum())
+print(df.isnull().sum())
+print("Most popular Genre :")
+print((df["Genre"].value_counts()).sort_values(ascending=False).head(1))
+print("Average Duration by Genre in minutes")
+print((df.groupby("Genre")["Duration"].mean()))
+print("Higest rated Movie")
+print(df.sort_values("Rating",ascending=False)[["Title","Genre","Duration","Rating"]].head(5))
+print("Number no movies Released after 2020 :")
+print(df[df["Year"]>2020])
+print("Movies sorted by ratings")
+print(df.sort_values("Rating",ascending=False)[["Title","Rating"]])
+plt.figure(figsize=(14,5))
+plt.subplot(2,2,1)
+Bar_chart=df.groupby("Genre")["Rating"].mean()
+plt.bar(Bar_chart.index,Bar_chart)
+plt.xlabel("Genre")
+plt.ylabel("Rating")
+plt.title("Bar chart → Average Rating by Genre.")
+plt.xticks(rotation=45, ha="right") 
+plt.subplot(2,2,2)
+Pie_chart=df["Language"].value_counts()
+plt.pie(Pie_chart,labels=Pie_chart.index,autopct="%1.1f%%")
+plt.title("Pie chart → Language Distribution.")
+plt.subplot(2,2,3)
+plt.hist(df["Duration"],bins="auto")
+plt.title("Histogram → Movie Duration.")
+plt.tight_layout()
+plt.show()
+#high rating goes to scific movies
+# English movies are high in number
+# people dont like horror movies
+# majorly duration of movies around 50-75 min
+# people majorly match crime/scific movies
