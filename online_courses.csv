@@ -1,0 +1,184 @@
+Student ID,Course,Hours Studied,Quiz Score,Percentage,Device,Country
+1001,SQL,78.0,35.0,22.0,Laptop,USA
+1002,Data Science,31.0,73.0,60.0,Mobile,Brazil
+1003,AI,105.0,87.0,95.0,Laptop,Australia
+1004,Data Science,40.0,73.0,63.0,Tablet,Brazil
+1005,Web Dev,114.0,85.0,60.0,Tablet,Japan
+1006,C++,70.0,84.0,62.0,Tablet,Japan
+1007,Python,15.0,70.0,85.0,Tablet,UK
+1008,Data Science,37.0,30.0,32.0,Mobile,India
+1009,AI,148.0,47.0,29.0,Tablet,Brazil
+1010,Web Dev,120.0,72.0,47.0,Mobile,Brazil
+1011,Python,21.0,43.0,62.0,Mobile,Canada
+1012,ML,70.0,36.0,72.0,Laptop,USA
+1013,Java,124.0,94.0,81.0,Laptop,USA
+1014,Python,33.0,97.0,93.0,Laptop,Japan
+1015,SQL,94.0,81.0,76.0,Tablet,Canada
+1016,Web Dev,137.0,56.0,86.0,Tablet,USA
+1017,Java,68.0,94.0,94.0,Laptop,Australia
+1018,Java,136.0,72.0,36.0,Tablet,UK
+1020,C++,123.0,75.0,22.0,Laptop,UK
+1021,Data Science,64.0,58.0,44.0,Laptop,Germany
+1023,C++,132.0,78.0,45.0,Laptop,Japan
+1024,Web Dev,101.0,72.0,38.0,Mobile,UK
+1025,ML,16.0,52.0,42.0,Tablet,Australia
+1026,AI,138.0,53.0,87.0,Tablet,India
+1027,C++,44.0,100.0,55.0,Mobile,Brazil
+1028,AI,95.0,70.0,24.0,Laptop,Australia
+1029,C++,21.0,55.0,70.0,Laptop,India
+1030,Python,138.0,98.0,87.0,Tablet,Canada
+1031,AI,22.0,64.0,40.0,Mobile,Australia
+1033,C++,44.0,37.0,56.0,Laptop,USA
+1034,Python,123.0,67.0,79.0,Mobile,Australia
+1035,Python,74.0,74.0,74.0,Tablet,Canada
+1036,Web Dev,87.0,36.0,30.0,Mobile,Australia
+1038,SQL,69.0,47.0,36.0,Laptop,Japan
+1039,AI,40.0,32.0,53.0,Tablet,Australia
+1040,Java,47.0,88.0,87.0,Tablet,India
+1041,AI,74.0,41.0,51.0,Mobile,India
+1043,Python,119.0,68.0,74.0,Mobile,Canada
+1045,ML,100.0,43.0,59.0,Tablet,Australia
+1047,C++,21.0,92.0,44.0,Mobile,Australia
+1049,ML,34.0,44.0,86.0,Laptop,Australia
+1050,Java,126.0,58.0,86.0,Mobile,Germany
+1051,ML,64.0,75.0,89.0,Laptop,India
+1052,Data Science,126.0,89.0,40.0,Tablet,Canada
+1053,Java,32.0,52.0,23.0,Mobile,Brazil
+1054,Java,80.0,42.0,80.0,Tablet,Australia
+1055,ML,132.0,44.0,63.0,Laptop,Germany
+1056,Python,35.0,35.0,62.0,Tablet,UK
+1057,SQL,20.0,33.0,90.0,Mobile,Canada
+1058,SQL,51.0,88.0,72.0,Tablet,Canada
+1059,ML,65.0,93.0,27.0,Laptop,UK
+1060,AI,97.0,95.0,21.0,Mobile,USA
+1061,SQL,124.0,83.0,64.0,Tablet,Canada
+1062,Data Science,73.0,60.0,25.0,Tablet,Canada
+1063,Data Science,34.0,37.0,57.0,Mobile,UK
+1064,Data Science,125.0,36.0,54.0,Mobile,Germany
+1065,Python,82.0,55.0,29.0,Tablet,Japan
+1066,SQL,79.0,47.0,20.0,Mobile,India
+1067,C++,137.0,45.0,76.0,Mobile,India
+1069,Web Dev,82.0,41.0,57.0,Tablet,Canada
+1070,SQL,101.0,90.0,30.0,Mobile,UK
+1071,Java,81.0,82.0,72.0,Tablet,Brazil
+1072,Python,98.0,63.0,65.0,Laptop,Japan
+1073,Web Dev,54.0,87.0,70.0,Laptop,Brazil
+1074,Java,144.0,71.0,85.0,Laptop,Germany
+1075,ML,13.0,44.0,36.0,Tablet,Japan
+1076,C++,27.0,53.0,80.0,Mobile,Germany
+1077,Python,108.0,62.0,60.0,Mobile,Brazil
+1078,Web Dev,106.0,36.0,23.0,Laptop,UK
+1079,C++,133.0,94.0,96.0,Laptop,UK
+1081,Python,80.0,36.0,49.0,Tablet,India
+1082,AI,28.0,58.0,31.0,Mobile,Australia
+1083,Java,102.0,93.0,58.0,Laptop,USA
+1084,Java,76.0,71.0,56.0,Laptop,India
+1085,SQL,31.0,41.0,87.0,Laptop,UK
+1086,SQL,37.0,79.0,86.0,Laptop,Germany
+1087,Data Science,84.0,79.0,22.0,Laptop,Germany
+1088,Java,77.0,72.0,84.0,Tablet,UK
+1089,Java,138.0,51.0,74.0,Mobile,Brazil
+1091,Web Dev,134.0,41.0,92.0,Laptop,UK
+1092,Web Dev,109.0,56.0,74.0,Laptop,Australia
+1093,ML,33.0,31.0,82.0,Mobile,Australia
+1094,Python,68.0,39.0,28.0,Laptop,Brazil
+1095,C++,99.0,65.0,44.0,Tablet,Canada
+1096,ML,118.0,54.0,79.0,Laptop,Germany
+1097,AI,67.0,49.0,74.0,Tablet,India
+1099,SQL,59.0,64.0,55.0,Mobile,Germany
+1101,Python,109.0,48.0,51.0,Tablet,Canada
+1102,Web Dev,133.0,67.0,30.0,Laptop,UK
+1103,AI,52.0,40.0,27.0,Mobile,Japan
+1104,Python,14.0,73.0,85.0,Mobile,Germany
+1105,Python,111.0,80.0,23.0,Mobile,Canada
+1106,Web Dev,106.0,49.0,46.0,Laptop,Japan
+1107,AI,9.0,96.0,57.0,Mobile,Australia
+1108,AI,17.0,98.0,55.0,Mobile,Australia
+1109,AI,109.0,71.0,35.0,Mobile,Japan
+1110,Data Science,129.0,80.0,36.0,Tablet,India
+1111,ML,73.0,36.0,47.0,Mobile,Japan
+1112,Web Dev,52.0,48.0,79.0,Laptop,Brazil
+1113,C++,136.0,43.0,45.0,Tablet,Japan
+1114,Python,104.0,49.0,74.0,Tablet,Germany
+1115,Python,24.0,73.0,58.0,Tablet,Germany
+1116,SQL,35.0,94.0,20.0,Mobile,Japan
+1117,Web Dev,13.0,96.0,25.0,Tablet,Canada
+1119,C++,10.0,39.0,80.0,Laptop,Japan
+1120,C++,23.0,58.0,39.0,Tablet,UK
+1121,AI,16.0,36.0,21.0,Mobile,India
+1122,Web Dev,66.0,64.0,33.0,Tablet,Canada
+1123,Java,56.0,67.0,28.0,Tablet,UK
+1125,Data Science,127.0,39.0,76.0,Mobile,USA
+1126,Data Science,52.0,74.0,57.0,Laptop,India
+1127,C++,16.0,74.0,77.0,Tablet,Australia
+1128,Java,130.0,30.0,46.0,Mobile,India
+1129,C++,46.0,79.0,97.0,Laptop,USA
+1130,Data Science,72.0,89.0,46.0,Laptop,Germany
+1131,Data Science,114.0,83.0,99.0,Laptop,Germany
+1132,Java,133.0,53.0,97.0,Mobile,Canada
+1133,Data Science,73.0,80.0,73.0,Tablet,Canada
+1134,ML,131.0,59.0,74.0,Tablet,Brazil
+1136,Python,121.0,59.0,64.0,Laptop,India
+1137,SQL,73.0,87.0,44.0,Mobile,UK
+1138,ML,131.0,77.0,33.0,Laptop,Japan
+1139,ML,54.0,30.0,65.0,Laptop,Australia
+1140,Java,142.0,57.0,21.0,Laptop,USA
+1141,AI,85.0,58.0,94.0,Mobile,Germany
+1142,SQL,65.0,54.0,34.0,Tablet,Brazil
+1143,C++,102.0,48.0,51.0,Laptop,Australia
+1144,SQL,109.0,52.0,50.0,Tablet,UK
+1145,Web Dev,130.0,46.0,26.0,Tablet,Germany
+1146,SQL,69.0,56.0,67.0,Mobile,USA
+1147,C++,72.0,43.0,83.0,Mobile,USA
+1148,AI,144.0,52.0,37.0,Mobile,Brazil
+1149,Python,12.0,67.0,21.0,Tablet,USA
+1150,ML,49.0,74.0,41.0,Mobile,Canada
+1151,ML,145.0,80.0,93.0,Tablet,Canada
+1152,AI,134.0,52.0,94.0,Laptop,Australia
+1153,Java,122.0,74.0,24.0,Laptop,Brazil
+1154,SQL,94.0,35.0,54.0,Mobile,UK
+1155,AI,144.0,62.0,27.0,Tablet,UK
+1156,ML,111.0,91.0,28.0,Laptop,Germany
+1157,ML,126.0,45.0,57.0,Tablet,Germany
+1158,SQL,61.0,38.0,23.0,Laptop,UK
+1159,ML,5.0,67.0,97.0,Tablet,Japan
+1160,SQL,28.0,81.0,93.0,Mobile,Brazil
+1161,SQL,6.0,67.0,67.0,Mobile,Germany
+1162,Web Dev,136.0,94.0,81.0,Tablet,Japan
+1163,Data Science,61.0,45.0,85.0,Tablet,Canada
+1164,Java,76.0,46.0,71.0,Mobile,Brazil
+1165,Web Dev,124.0,80.0,65.0,Laptop,Australia
+1166,Python,100.0,82.0,42.0,Tablet,Brazil
+1167,C++,20.0,42.0,36.0,Laptop,Australia
+1168,Java,48.0,84.0,41.0,Mobile,USA
+1169,Data Science,33.0,92.0,43.0,Tablet,USA
+1170,Data Science,46.0,62.0,21.0,Tablet,UK
+1171,SQL,26.0,77.0,95.0,Laptop,USA
+1172,ML,49.0,82.0,97.0,Tablet,Brazil
+1173,C++,139.0,65.0,92.0,Tablet,Japan
+1174,Python,123.0,47.0,88.0,Laptop,Australia
+1175,Python,79.0,60.0,69.0,Laptop,Germany
+1176,SQL,120.0,86.0,70.0,Laptop,Australia
+1177,Java,9.0,46.0,69.0,Laptop,Canada
+1178,ML,141.0,79.0,60.0,Tablet,Canada
+1179,ML,56.0,92.0,34.0,Mobile,Brazil
+1180,Web Dev,126.0,75.0,84.0,Tablet,Germany
+1181,Data Science,134.0,57.0,79.0,Mobile,Canada
+1182,Java,84.0,80.0,47.0,Laptop,Germany
+1183,Data Science,79.0,75.0,70.0,Tablet,USA
+1184,AI,39.0,38.0,64.0,Laptop,Brazil
+1185,Java,35.0,86.0,49.0,Tablet,Brazil
+1186,Data Science,71.0,45.0,36.0,Tablet,Australia
+1187,C++,102.0,93.0,28.0,Mobile,Japan
+1188,ML,70.0,98.0,100.0,Laptop,UK
+1189,Java,85.0,33.0,44.0,Mobile,Australia
+1190,AI,11.0,46.0,97.0,Laptop,Japan
+1191,C++,149.0,35.0,22.0,Laptop,Australia
+1193,C++,107.0,98.0,25.0,Laptop,Japan
+1194,SQL,71.0,37.0,93.0,Laptop,UK
+1195,Python,128.0,33.0,97.0,Tablet,India
+1196,SQL,83.0,74.0,100.0,Tablet,UK
+1197,Data Science,67.0,50.0,99.0,Mobile,Japan
+1198,ML,51.0,64.0,44.0,Mobile,Germany
+1199,Data Science,103.0,100.0,55.0,Laptop,Australia
+1200,Java,91.0,80.0,77.0,Mobile,UK

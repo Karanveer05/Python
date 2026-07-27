@@ -1,0 +1,90 @@
+Mission_Name,Country,Rocket Type,Launch Year,Cost,Payload_Weight,Success
+Mission-001,UAE,Falcon 9,2009,2916.0,5005.0,Yes
+Mission-002,UK,Falcon 9,2015,4491.0,7106.0,Yes
+Mission-003,Russia,Long March 5,2006,1777.0,13829.0,Yes
+Mission-004,India,Electron,2025,1797.0,1311.0,No
+Mission-005,UK,Long March 5,2022,1994.0,11533.0,No
+Mission-007,France,Electron,2023,488.0,15923.0,No
+Mission-008,UK,Falcon 9,2022,193.0,24931.0,Yes
+Mission-009,UAE,Atlas V,2013,1248.0,14604.0,Yes
+Mission-010,Japan,H3,2019,1385.0,22172.0,No
+Mission-011,Russia,Electron,2000,857.0,5981.0,Yes
+Mission-012,Russia,Ariane 5,2005,3966.0,15236.0,No
+Mission-013,USA,GSLV Mk III,2005,3993.0,5917.0,No
+Mission-014,Russia,Falcon 9,2000,833.0,23978.0,Yes
+Mission-015,India,Atlas V,2017,705.0,14687.0,No
+Mission-016,France,Soyuz,2024,3581.0,23753.0,Yes
+Mission-017,Russia,Atlas V,2026,3013.0,13065.0,Yes
+Mission-018,Russia,Atlas V,2012,2068.0,10207.0,Yes
+Mission-019,UK,Ariane 5,2003,3241.0,24301.0,Yes
+Mission-020,India,Falcon 9,2007,765.0,23068.0,No
+Mission-021,UK,Electron,2022,919.0,10897.0,No
+Mission-022,China,Falcon 9,2013,3458.0,20151.0,Yes
+Mission-024,UK,Electron,2018,2374.0,3035.0,No
+Mission-025,USA,Ariane 5,2008,2196.0,20740.0,No
+Mission-026,UAE,Soyuz,2020,1787.0,18978.0,No
+Mission-027,France,GSLV Mk III,2025,3233.0,8231.0,Yes
+Mission-028,France,Ariane 5,2012,2808.0,22930.0,Yes
+Mission-029,USA,GSLV Mk III,2026,1749.0,21947.0,No
+Mission-030,Russia,GSLV Mk III,2023,2720.0,18874.0,No
+Mission-031,India,Soyuz,2020,3034.0,12143.0,Yes
+Mission-032,Russia,Falcon 9,2022,4637.0,12566.0,Yes
+Mission-033,UAE,GSLV Mk III,2022,4015.0,9598.0,Yes
+Mission-034,France,Ariane 5,2009,4627.0,3968.0,No
+Mission-035,Russia,GSLV Mk III,2001,1350.0,18101.0,No
+Mission-037,Japan,Atlas V,2002,4774.0,2938.0,No
+Mission-039,Japan,Electron,2017,2971.0,22678.0,Yes
+Mission-040,Japan,Soyuz,2002,4075.0,16437.0,Yes
+Mission-041,India,Falcon 9,2002,2121.0,3298.0,No
+Mission-043,UAE,Ariane 5,2011,684.0,14175.0,No
+Mission-044,China,Falcon 9,2014,3896.0,14415.0,Yes
+Mission-045,Russia,Soyuz,2004,2504.0,754.0,No
+Mission-046,UK,Atlas V,2008,1343.0,20776.0,Yes
+Mission-048,USA,Soyuz,2020,1905.0,14377.0,No
+Mission-049,Russia,H3,2026,3891.0,21936.0,Yes
+Mission-050,UAE,Atlas V,2013,98.0,513.0,Yes
+Mission-051,Russia,Falcon 9,2008,1376.0,20396.0,No
+Mission-052,UK,Long March 5,2007,2013.0,23306.0,Yes
+Mission-053,UK,Ariane 5,2014,2025.0,7396.0,Yes
+Mission-055,Japan,H3,2003,4720.0,17321.0,No
+Mission-056,USA,GSLV Mk III,2008,432.0,4852.0,Yes
+Mission-057,India,Electron,2024,3377.0,21234.0,Yes
+Mission-058,China,Electron,2009,2325.0,18920.0,No
+Mission-059,Russia,Atlas V,2004,4311.0,15031.0,No
+Mission-060,China,Long March 5,2000,2085.0,20139.0,No
+Mission-061,France,Long March 5,2011,4855.0,14264.0,Yes
+Mission-064,Japan,Soyuz,2018,3953.0,9191.0,No
+Mission-065,UAE,Long March 5,2000,4809.0,3596.0,No
+Mission-066,USA,Electron,2009,2878.0,2060.0,Yes
+Mission-067,India,Falcon 9,2019,4127.0,16191.0,Yes
+Mission-068,India,H3,2004,4892.0,14876.0,No
+Mission-069,UK,Atlas V,2020,1216.0,7584.0,No
+Mission-070,USA,Long March 5,2002,1164.0,16226.0,Yes
+Mission-071,USA,H3,2002,155.0,22197.0,Yes
+Mission-072,China,Electron,2012,544.0,18351.0,Yes
+Mission-073,India,H3,2026,3375.0,17752.0,Yes
+Mission-074,UAE,H3,2016,2445.0,10721.0,No
+Mission-075,USA,Long March 5,2010,3285.0,19407.0,Yes
+Mission-076,UAE,Electron,2023,1121.0,525.0,No
+Mission-077,UAE,Falcon 9,2011,565.0,6286.0,Yes
+Mission-078,China,GSLV Mk III,2004,886.0,23014.0,Yes
+Mission-079,USA,GSLV Mk III,2013,1273.0,249.0,Yes
+Mission-080,UAE,Soyuz,2000,4351.0,24325.0,No
+Mission-081,UK,H3,2010,2183.0,10543.0,Yes
+Mission-082,Russia,Atlas V,2025,4244.0,21812.0,Yes
+Mission-083,India,Electron,2025,4491.0,11698.0,No
+Mission-084,UAE,Atlas V,2017,1351.0,20952.0,Yes
+Mission-085,USA,Atlas V,2021,4268.0,1145.0,Yes
+Mission-086,Russia,Soyuz,2013,3899.0,12279.0,Yes
+Mission-087,India,Falcon 9,2016,61.0,10036.0,Yes
+Mission-088,India,Atlas V,2018,2504.0,4794.0,No
+Mission-089,Russia,H3,2024,2995.0,12154.0,No
+Mission-091,UK,Electron,2006,3963.0,796.0,No
+Mission-092,France,H3,2025,4719.0,8876.0,Yes
+Mission-093,India,Ariane 5,2019,4908.0,6290.0,Yes
+Mission-094,Russia,Ariane 5,2007,3950.0,5786.0,Yes
+Mission-095,France,Falcon 9,2000,2829.0,14343.0,Yes
+Mission-097,China,Falcon 9,2023,1054.0,498.0,No
+Mission-098,Russia,Atlas V,2012,2174.0,5285.0,Yes
+Mission-099,UAE,Long March 5,2022,2801.0,20284.0,No
+Mission-100,India,Falcon 9,2010,3402.0,15263.0,No
