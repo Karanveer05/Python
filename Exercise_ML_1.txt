@@ -1,0 +1,108 @@
+Machine learning -- in this the data set is used and input or output taken and prediction is solved on the basis of the previous data
+Traditional programing in this there is no prediction it perform on the inbuild coditions set by programmar
+Atm Pin Verification=Traditional programming
+Netflix Recommendations= supervised learning
+Detecting fake credit card transactions=supervised
+Robot learning to walk=reinforcement
+Grouping customers based on shopping habits=unsupervised
+Face Unlock in smartphones=semi-supervised
+Chess-playing AI=reinforcement
+Calculator=Traditional
+
+
+#2
+import pandas as pd
+df=pd.read_csv("student_dataset.csv")
+print(df)
+observation= as no of hours or attendence increases the marks in exam increases positive slop graph
+features-attendance,study hours,Sutdent name,city,age
+target=final marks
+no of observation =29
+no of features=6
+
+
+#3
+Features=Area,Bedrooms,City,Bathrooms
+Target=price
+
+features= Seats in car,Engine type,milage ,insurance coverage,smartfeatures
+target=car price
+
+features=attendance,no of project handles,designation,working hours
+target=employee salary
+
+features=no of sugar consumed per day ,heat rate,blood pressure,breating rate,insulin released
+target=Diabetes prediction
+
+features=salary,previous pending loans,bank transactions,property he she has
+target=loan approval
+
+features=liked movie,watch hours,rating 
+target=movie Recommendations
+
+#4
+1-regression
+2-classification
+3-regression
+4-classification
+5-regression
+6-classification
+7-regression
+8-classification
+9-regression
+0-classification
+
+#5
+school
+workflow
+1 collect student_dataset
+2 EDA
+3 Select Features
+4 Select Target
+5 Train model
+6 predict value
+7 Evaluation (f2 value)
+
+#6
+1. base value (_threshold salary)
+2. increment (Experience incremental salary)
+
+
+#7
+College
+dataset= rollno,name,attendence,marks,cgpa,study hours,screen time
+features=all except marks and cgpa
+observations=no of students
+target= marks,cgpa
+
+#8
+1. NameExperienceSkillsSalary
+2. no of employee
+3. all except salary
+4. salary
+5. first 80 % rows
+6. last 20% rows
+7. linear regression
+8. scikit-learn
+9. predict salary having 12 year Experience
+
+#9 
+data set =Age,Sex,BMI,Children,Smoker,Region,Charges
+1. Smoker
+2. region
+3. sex,smoker,region
+4. Charges
+5. Bmi,Charges,Age,childern
+
+#10
+Mobile Price Prediction
+1.predict the price of a mobile phone based on its features such as RAM, battery capacity, camera, storage, and processor.
+2. Brand,RAM,Storage,Battery,Camera,Processor,Screen_Size,price
+3.  Brand,RAM,Storage,Battery,Camera,Processor,Screen_Size
+4. Price
+5. Supervised Learning
+6. regression
+7. Machine Learning learns the relationship between mobile features and their prices from historical data
+8. Linear Regression - as it deals with continous numerical value
+9. R² Score
+10. incorrect data reduce the accuracy of price Prediction,model may not work well for new mobile phones with new features .
