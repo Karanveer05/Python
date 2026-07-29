@@ -3,18 +3,18 @@ import csv
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-# Number=int(input("Enter the number of Orders :"))
-# with open("Orders.csv","w") as file:
-#     writer=csv.writer(file)
-#     writer.writerow(["Order Id","Customer","Product","Quantity","Price"])
-#     for i in range(Number):
-#        print("-"*70)
-#        Order_Id=int(input(f"Enter the Order Id of Order {i+1} : "))
-#        Customer=str(input("Enter the Customer  :"))
-#        Product=str(input("Enter the Product Name  : "))
-#        Quantity=int(input("Enter the Quantity  :"))
-#        Price=int(input("Enter the Price :"))
-#        writer.writerow([Order_Id,Customer,Product,Quantity,Price])
+Number=int(input("Enter the number of Orders :"))
+with open("Orders.csv","w") as file:
+    writer=csv.writer(file)
+    writer.writerow(["Order Id","Customer","Product","Quantity","Price"])
+    for i in range(Number):
+       print("-"*70)
+       Order_Id=int(input(f"Enter the Order Id of Order {i+1} : "))
+       Customer=str(input("Enter the Customer  :"))
+       Product=str(input("Enter the Product Name  : "))
+       Quantity=int(input("Enter the Quantity  :"))
+       Price=int(input("Enter the Price :"))
+       writer.writerow([Order_Id,Customer,Product,Quantity,Price])
 df_csv=pd.read_csv("Orders.csv")
 df_csv["Total"] = df_csv["Quantity"] * df_csv["Price"]
 df_csv.to_csv("Orders.csv", index=False)

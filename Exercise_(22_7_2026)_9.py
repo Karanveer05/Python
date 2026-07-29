@@ -46,6 +46,7 @@ plt.pie(payment_count,
         autopct="%1.1f%%")
 plt.title("Payment Mode")
 
+# Bar Chart
 plt.subplot(2, 2, 2)
 plt.bar(df["Food Item"], df["Total"])
 plt.xlabel("Food Item")
@@ -53,6 +54,7 @@ plt.ylabel("Sales")
 plt.title("Food Sales")
 plt.grid(True)
 
+# Histogram
 plt.subplot(2, 2, 3)
 plt.hist(df["Total"], bins="auto")
 plt.xlabel("Bill Amount")

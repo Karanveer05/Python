@@ -2,19 +2,19 @@ import csv
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-# Number=int(input("Enter the No. of players You Want to enter the data :"))
-# with open("ipl_stats.csv","w",newline="") as file:
-#     writer=csv.writer(file)
-#     writer.writerow(["Player Name","Team","Matches","Runs", "Strike Rate"])
-#     for i in range(Number):
-#         print("-"*50)
-#         Player_Name=str(input(f"Enter The Name of Player {i+1} : "))
-#         Team=str(input(f"Enter the {Player_Name} Team  Name : "))                                 # upper() not working 
-#         Matches=int(input(f"Enter the Number of Matches Played by {Player_Name} : "))
-#         Runs=int(input(f"Enter the Number of Runs Scored By {Player_Name} : "))
-#         Strike_Rate=int(input(f"Enter The Strike Rate by {Player_Name} : "))
-#         writer.writerow([Player_Name.upper(),Team.upper(),Matches,Runs,Strike_Rate])
-# print("Exporting The Data To File Is Sucessfull")
+Number=int(input("Enter the No. of players You Want to enter the data :"))
+with open("ipl_stats.csv","w",newline="") as file:
+    writer=csv.writer(file)
+    writer.writerow(["Player Name","Team","Matches","Runs", "Strike Rate"])
+    for i in range(Number):
+        print("-"*50)
+        Player_Name=str(input(f"Enter The Name of Player {i+1} : "))
+        Team=str(input(f"Enter the {Player_Name} Team  Name : "))                                 # upper() not working 
+        Matches=int(input(f"Enter the Number of Matches Played by {Player_Name} : "))
+        Runs=int(input(f"Enter the Number of Runs Scored By {Player_Name} : "))
+        Strike_Rate=int(input(f"Enter The Strike Rate by {Player_Name} : "))
+        writer.writerow([Player_Name.upper(),Team.upper(),Matches,Runs,Strike_Rate])
+print("Exporting The Data To File Is Sucessfull")
 print("-"*50)
 print("Printing the Information Of players")
 df_csv=pd.read_csv("ipl_stats.csv") 

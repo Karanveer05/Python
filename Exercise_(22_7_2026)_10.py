@@ -53,8 +53,9 @@ plt.title("Country vs GDP")
 plt.grid(True)
 
 plt.subplot(2, 2, 2)
+continent = df["Continent"].value_counts()
 
-plt.pie(df["Continent"].value_counts(),labels=df["Continent"],autopct="%1.1f%%")
+plt.pie(continent,labels=continent.index,autopct="%1.1f%%")
 plt.title("Continent Distribution")
 
 plt.subplot(2, 2, 3)

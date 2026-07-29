@@ -104,5 +104,5 @@ Mobile Price Prediction
 6. regression
 7. Machine Learning learns the relationship between mobile features and their prices from historical data
 8. Linear Regression - as it deals with continous numerical value
-9. R² Score
+9. R2 Score
 10. incorrect data reduce the accuracy of price Prediction,model may not work well for new mobile phones with new features .

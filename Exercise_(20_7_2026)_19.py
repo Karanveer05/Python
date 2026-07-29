@@ -2,16 +2,16 @@ import csv
 import numpy as np
 Petrol=[]
 Diesel=[]
-# with open("Fuel_Station_Sales_Report.csv","w",newline="") as file :
-#     writer=csv.writer(file)
-#     writer.writerow(["Date","Petrol Sold","Diesel Sold"])
-#     Number_of_Days=int(input("Enter the Number of Days You Want to enter the date in it :"))
-#     for i in range(Number_of_Days):
-#         Date=int(input("Enter the Date (DD-MM-YYYY)  :"))
-#         Petrol_Sold=int(input("Petrol Sold In ltr.   :"))
-#         Diesel_Sold=int(input("Diesel Sold in ltr.   :"))
-#         writer.writerow([Date,Petrol_Sold,Diesel_Sold])
-# print("Data Exported to file Sucessfull")
+with open("Fuel_Station_Sales_Report.csv","w",newline="") as file :
+    writer=csv.writer(file)
+    writer.writerow(["Date","Petrol Sold","Diesel Sold"])
+    Number_of_Days=int(input("Enter the Number of Days You Want to enter the date in it :"))
+    for i in range(Number_of_Days):
+        Date=int(input("Enter the Date (DD-MM-YYYY)  :"))
+        Petrol_Sold=int(input("Petrol Sold In ltr.   :"))
+        Diesel_Sold=int(input("Diesel Sold in ltr.   :"))
+        writer.writerow([Date,Petrol_Sold,Diesel_Sold])
+print("Data Exported to file Sucessfull")
 with open("Fuel_Station_Sales_Report.csv","r")as file:
     data=csv.reader(file)
     next(data)
