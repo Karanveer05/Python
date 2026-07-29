@@ -1,0 +1,31 @@
+Student,Branch,CGPA,Interview_Score,Package,Company
+Student_001,CSE,8.7,86,12.5,TechCorp
+Student_002,ECE,7.9,78,8.2,InfoSystems
+Student_003,Mechanical,8.1,82,7.5,AutoTech
+Student_004,IT,9.1,91,15.0,DataSoft
+Student_005,Civil,7.4,70,6.0,BuildWorks
+Student_006,CSE,8.9,88,13.8,CloudNet
+Student_007,ECE,8.3,80,9.5,ElectroTech
+Student_008,IT,9.3,94,16.5,AI Solutions
+Student_009,Mechanical,7.8,75,7.2,AutoTech
+Student_010,CSE,8.5,85,11.8,TechCorp
+Student_011,ECE,8.0,79,8.8,InfoSystems
+Student_012,Civil,7.6,72,6.5,BuildWorks
+Student_013,IT,9.0,90,14.5,DataSoft
+Student_014,CSE,8.8,87,13.2,CloudNet
+Student_015,Mechanical,7.5,74,7.0,AutoTech
+Student_016,ECE,8.6,84,10.8,ElectroTech
+Student_017,IT,9.2,92,16.0,AI Solutions
+Student_018,CSE,8.4,83,11.2,TechCorp
+Student_019,Civil,7.2,68,5.8,BuildWorks
+Student_020,ECE,8.1,81,9.0,InfoSystems
+Student_141,CSE,8.9,89,14.0,CloudNet
+Student_142,ECE,8.2,82,9.2,ElectroTech
+Student_143,IT,9.4,95,17.0,AI Solutions
+Student_144,Mechanical,7.7,76,7.4,AutoTech
+Student_145,Civil,7.3,71,6.2,BuildWorks
+Student_146,CSE,8.6,86,12.6,TechCorp
+Student_147,ECE,8.4,83,10.5,InfoSystems
+Student_148,IT,9.1,91,15.2,DataSoft
+Student_149,Mechanical,8.0,79,8.0,AutoTech
+Student_150,CSE,8.8,88,13.7,CloudNet

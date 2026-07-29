@@ -1,0 +1,121 @@
+Athlete,Country,Sport,Age,Height,Weight,Medal
+Athlete_001,USA,Athletics,22,175,68,2
+Athlete_002,Canada,Swimming,24,182,75,1
+Athlete_003,UK,Cycling,27,178,70,3
+Athlete_004,Australia,Rowing,29,188,84,2
+Athlete_005,Germany,Gymnastics,21,168,60,1
+Athlete_006,France,Fencing,26,180,73,2
+Athlete_007,Japan,Judo,25,172,78,4
+Athlete_008,China,Table Tennis,23,170,65,5
+Athlete_009,India,Wrestling,28,176,82,1
+Athlete_010,Brazil,Volleyball,24,185,80,2
+Athlete_011,Italy,Swimming,22,181,74,0
+Athlete_012,Spain,Football,27,183,79,1
+Athlete_013,Netherlands,Cycling,26,177,71,2
+Athlete_014,Kenya,Athletics,29,174,62,3
+Athlete_015,Ethiopia,Athletics,24,171,59,4
+Athlete_016,South Korea,Archery,25,173,67,3
+Athlete_017,Mexico,Diving,23,169,63,1
+Athlete_018,New Zealand,Rowing,28,189,86,2
+Athlete_019,Poland,Weightlifting,30,184,92,2
+Athlete_020,Turkey,Wrestling,27,179,85,1
+Athlete_021,USA,Basketball,26,198,96,2
+Athlete_022,Canada,Ice Hockey,28,188,91,1
+Athlete_023,UK,Boxing,24,180,76,2
+Athlete_024,Australia,Swimming,23,186,81,3
+Athlete_025,Germany,Canoeing,27,183,79,1
+Athlete_026,France,Handball,29,190,88,2
+Athlete_027,Japan,Karate,22,171,68,1
+Athlete_028,China,Badminton,25,175,69,4
+Athlete_029,India,Shooting,30,177,73,2
+Athlete_030,Brazil,Judo,24,178,81,3
+Athlete_031,Italy,Fencing,26,182,74,2
+Athlete_032,Spain,Tennis,25,185,79,1
+Athlete_033,Netherlands,Hockey,27,181,77,2
+Athlete_034,Kenya,Athletics,23,172,60,5
+Athlete_035,Ethiopia,Athletics,29,170,58,4
+Athlete_036,South Korea,Taekwondo,24,176,72,2
+Athlete_037,Mexico,Football,27,179,75,1
+Athlete_038,New Zealand,Rugby,28,192,98,0
+Athlete_039,Poland,Athletics,26,184,80,1
+Athlete_040,Turkey,Weightlifting,29,181,94,3
+Athlete_041,USA,Golf,31,183,82,0
+Athlete_042,Canada,Curling,30,180,83,1
+Athlete_043,UK,Rowing,27,189,87,2
+Athlete_044,Australia,Sailing,29,185,79,1
+Athlete_045,Germany,Athletics,25,182,76,2
+Athlete_046,France,Cycling,24,178,70,1
+Athlete_047,Japan,Swimming,22,176,69,3
+Athlete_048,China,Gymnastics,21,165,56,5
+Athlete_049,India,Boxing,26,174,70,1
+Athlete_050,Brazil,Football,28,181,77,2
+Athlete_051,Italy,Volleyball,25,190,86,1
+Athlete_052,Spain,Handball,27,187,84,2
+Athlete_053,Netherlands,Cycling,24,179,72,3
+Athlete_054,Kenya,Athletics,23,173,61,4
+Athlete_055,Ethiopia,Athletics,26,169,57,5
+Athlete_056,South Korea,Archery,24,171,66,4
+Athlete_057,Mexico,Taekwondo,28,177,74,2
+Athlete_058,New Zealand,Canoeing,29,186,82,1
+Athlete_059,Poland,Rowing,30,191,90,2
+Athlete_060,Turkey,Wrestling,27,180,87,1
+Athlete_061,USA,Athletics,22,176,69,2
+Athlete_062,Canada,Swimming,23,181,73,1
+Athlete_063,UK,Cycling,28,179,71,2
+Athlete_064,Australia,Rowing,30,190,88,3
+Athlete_065,Germany,Gymnastics,21,167,59,1
+Athlete_066,France,Fencing,27,181,74,2
+Athlete_067,Japan,Judo,26,173,79,3
+Athlete_068,China,Table Tennis,24,171,66,6
+Athlete_069,India,Wrestling,29,177,83,2
+Athlete_070,Brazil,Volleyball,25,186,81,2
+Athlete_071,Italy,Swimming,23,182,75,1
+Athlete_072,Spain,Football,28,184,80,2
+Athlete_073,Netherlands,Cycling,27,178,72,2
+Athlete_074,Kenya,Athletics,24,174,62,5
+Athlete_075,Ethiopia,Athletics,25,170,58,4
+Athlete_076,South Korea,Archery,26,174,68,3
+Athlete_077,Mexico,Diving,24,170,64,2
+Athlete_078,New Zealand,Rowing,27,188,85,2
+Athlete_079,Poland,Weightlifting,29,185,93,3
+Athlete_080,Turkey,Wrestling,28,180,86,1
+Athlete_081,USA,Basketball,27,199,97,2
+Athlete_082,Canada,Ice Hockey,29,189,92,1
+Athlete_083,UK,Boxing,25,181,77,2
+Athlete_084,Australia,Swimming,24,187,82,3
+Athlete_085,Germany,Canoeing,28,184,80,2
+Athlete_086,France,Handball,30,191,89,2
+Athlete_087,Japan,Karate,23,172,69,1
+Athlete_088,China,Badminton,26,176,70,5
+Athlete_089,India,Shooting,31,178,74,2
+Athlete_090,Brazil,Judo,25,179,82,3
+Athlete_091,Italy,Fencing,27,183,75,2
+Athlete_092,Spain,Tennis,26,186,80,2
+Athlete_093,Netherlands,Hockey,28,182,78,3
+Athlete_094,Kenya,Athletics,24,173,61,6
+Athlete_095,Ethiopia,Athletics,30,171,59,5
+Athlete_096,South Korea,Taekwondo,25,177,73,2
+Athlete_097,Mexico,Football,28,180,76,1
+Athlete_098,New Zealand,Rugby,29,193,99,0
+Athlete_099,Poland,Athletics,27,185,81,2
+Athlete_100,Turkey,Weightlifting,30,182,95,3
+Athlete_101,USA,Golf,32,184,83,1
+Athlete_102,Canada,Curling,31,181,84,1
+Athlete_103,UK,Rowing,28,190,88,3
+Athlete_104,Australia,Sailing,30,186,80,2
+Athlete_105,Germany,Athletics,26,183,77,2
+Athlete_106,France,Cycling,25,179,71,2
+Athlete_107,Japan,Swimming,23,177,70,4
+Athlete_108,China,Gymnastics,22,166,57,6
+Athlete_109,India,Boxing,27,175,71,2
+Athlete_110,Brazil,Football,29,182,78,3
+Athlete_111,Italy,Volleyball,26,191,87,2
+Athlete_112,Spain,Handball,28,188,85,2
+Athlete_113,Netherlands,Cycling,25,180,73,4
+Athlete_114,Kenya,Athletics,24,174,62,5
+Athlete_115,Ethiopia,Athletics,27,171,59,6
+Athlete_116,South Korea,Archery,25,172,67,4
+Athlete_117,Mexico,Taekwondo,29,178,75,2
+Athlete_118,New Zealand,Canoeing,30,187,83,2
+Athlete_119,Poland,Rowing,31,192,91,3
+Athlete_120,Turkey,Wrestling,28,181,88,2
