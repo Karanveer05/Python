@@ -1,0 +1,35 @@
+NLP Practice Notes
+
+1. Data Cleaning
+
+-   Convert text to lowercase.
+-   Remove special characters.
+-   Remove numbers (optional).
+-   Remove extra spaces.
+
+2. Tokenization
+
+-   Split text into individual words (tokens).
+
+3. Stop Word Removal
+
+-   Remove common words such as: is, the, and, of, in, to.
+
+4. Next NLP Steps
+
+-   Stemming
+-   Lemmatization
+-   Vectorization (Bag of Words, TF-IDF)
+
+Example
+
+Original: Computer Science Student with knowledge of Python and Java.
+
+After Cleaning: computer science student with knowledge of python and
+java
+
+After Tokenization: [‘computer’, ‘science’, ‘student’, ‘with’,
+‘knowledge’, ‘of’, ‘python’, ‘and’, ‘java’]
+
+After Stop Word Removal: [‘computer’, ‘science’, ‘student’, ‘knowledge’,
+‘python’, ‘java’]
