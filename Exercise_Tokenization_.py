@@ -204,117 +204,59 @@ Input=pd.Series(["playing", "unhappiness", "internationalization",
  # doubt --- how word_tokenisation apply on list as they are already words  and how to target sub word tokenisation in the list 
 """
 #10
-
 import nltk
 import re
 import pandas as pd
-import string
-
-from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
-
-paragraph = str(input("Enter the paragraph : "))
-
-Sentence_tokens = sent_tokenize(paragraph)
-
-# uncompleted 
-
-
+Stop_words=set(stopwords.words("english"))
+from nltk.tokenize import word_tokenize,sent_tokenize
+paragraph=str(input("Enter the paragraphs : "))
+sentence_tokens=sent_tokenize(paragraph)
+print(f"Number of Sentences : {sentence_tokens}")
+Word_tokens=[]
+for sentence in sentence_tokens:
+ Word_tokens.extend(word_tokenize(sentence_tokens))
 def int_float(token):
-
-    token = re.sub(r"\.", "", token)
-
+    token=re.sub(r"\.",'',token)
     if token.isdigit():
-        return True
+       return True
     else:
         return False
-
-
-print(f"\nNumber of sentences : {len(Sentence_tokens)}")
-
-print(f"Total number of tokens : {len(Word_tokens)}")
-
-
-unique_tokens = set(Word_tokens)
-
-print(f"Number of unique tokens : {len(unique_tokens)}")
-print(f"Unique tokens : {unique_tokens}")
-
-
-Alphabetic = [
+print(f"Number of tokens : {len(Word_tokens)}")
+common_tokens=pd.Series(Word_tokens)
+max_count = common_tokens.value_counts().max()
+print(f"Most Common tokens are :\n{common_tokens.value_counts()[common_tokens.value_counts()==max_count].head(5)}")
+Alphabetic=[
     word for word in Word_tokens
-    if word.isalpha()
+    if  word.isalpha() 
 ]
-
-print(f"\nNumber of alphabetic tokens : {len(Alphabetic)}")
-print(f"Alphabetic tokens : {Alphabetic}")
-
-
-Numeric = [
+Numeric=[
     word for word in Word_tokens
-    if int_float(word)
+    if  int_float(word)
 ]
-
-print(f"\nNumber of numeric tokens : {len(Numeric)}")
-print(f"Numeric tokens : {Numeric}")
-
-
-Punctuation = [
+Special=[
     word for word in Word_tokens
-    if all(character in string.punctuation for character in word)
+     if  not (word.isalpha() or  int_float(word))
 ]
-
-print(f"\nNumber of punctuation tokens : {len(Punctuation)}")
-print(f"Punctuation tokens : {Punctuation}")
-
-
-token_series = pd.Series(Word_tokens)
-
-token_count = token_series.value_counts()
-
-print(f"\nMost common token : {token_count.index[0]}")
-print(f"Count : {token_count.iloc[0]}")
-
-
-print("\nTop 5 most common tokens :")
-print(token_count.head(5))
-
-
-total_length = 0
-
-for word in Word_tokens:
-    total_length = total_length + len(word)
-
-average_length = total_length / len(Word_tokens)
-
-print(f"\nAverage token length : {average_length:.2f}")
-
-
+print(f"number of alphabetic tokens is : {len(Alphabetic)}")
+print(Alphabetic)
+print(f"number of Numeric tokens is : {len(Numeric)}")
+print(Numeric)
+print(f"number of Special tokens is : {len(Special)}")
+print(Special)
+stop_words_number=[
+    word for word in Word_tokens
+    if word in Stop_words
+]
+clean_text=[
+    word for word in Word_tokens
+    if word not in Stop_words and  (word.isalpha() or  int_float(word))
+]
 longest_token = max(Word_tokens, key=len)
-
-print(f"Longest token : {longest_token}")
-
-
 shortest_token = min(Word_tokens, key=len)
+print(f"Longest token is : {longest_token}")
+print(f"Shortest token is : {shortest_token}")
+print(f" Number of Stop Words is : {len(stop_words_number)}")
+print(f" clean text is  is : {clean_text}")
+# how to find average length of tokens ??
 
-print(f"Shortest token : {shortest_token}")
-
-
-stop_words = set(stopwords.words("english"))
-
-Stopword_tokens = [
-    word for word in Word_tokens
-    if word.lower() in stop_words
-]
-
-print(f"\nNumber of stopwords : {len(Stopword_tokens)}")
-print(f"Stopwords : {Stopword_tokens}")
-
-
-Final_tokens = [
-    word.lower()
-    for word in Word_tokens
-    if word.isalpha() and word.lower() not in stop_words
-]
-
-print(f"\nFinal tokens after cleaning : {Final_tokens}")
