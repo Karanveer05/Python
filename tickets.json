@@ -1,0 +1,72 @@
+[
+    {
+        "category": "technical_support",
+        "priority": "high",
+        "sentiment": "negative",
+        "summary": "The customer's internet has been down since yesterday and restarting the router twice did not resolve the issue.",
+        "requires_human_support": true
+    },
+    {
+        "category": "billing",
+        "priority": "high",
+        "sentiment": "negative",
+        "summary": "Customer was charged twice for the same order and requested a refund.",
+        "requires_human_support": true
+    },
+    {
+        "category": "account",
+        "priority": "high",
+        "sentiment": "negative",
+        "summary": "User is unable to log in to their account despite resetting their password.",
+        "requires_human_support": true
+    },
+    {
+        "category": "delivery",
+        "priority": "medium",
+        "sentiment": "negative",
+        "summary": "Package is three days past its expected delivery date and has not arrived.",
+        "requires_human_support": true
+    },
+    {
+        "category": "delivery",
+        "priority": "low",
+        "sentiment": "positive",
+        "summary": "Customer expressed satisfaction with the quick delivery and excellent service.",
+        "requires_human_support": false
+    },
+    {
+        "category": "account",
+        "priority": "medium",
+        "sentiment": "neutral",
+        "summary": "User needs help recovering a forgotten account password.",
+        "requires_human_support": true
+    },
+    {
+        "category": "billing",
+        "priority": "high",
+        "sentiment": "negative",
+        "summary": "Payment was declined while placing an order.",
+        "requires_human_support": true
+    },
+    {
+        "category": "delivery",
+        "priority": "high",
+        "sentiment": "negative",
+        "summary": "Product arrived damaged and customer requests an immediate replacement.",
+        "requires_human_support": true
+    },
+    {
+        "category": "general",
+        "priority": "low",
+        "sentiment": "neutral",
+        "summary": "Customer asking for customer service working hours.",
+        "requires_human_support": false
+    },
+    {
+        "category": "technical_support",
+        "priority": "high",
+        "sentiment": "negative",
+        "summary": "The application repeatedly crashes when trying to upload a document.",
+        "requires_human_support": true
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "name": "",
+    "email": null,
+    "phone": null,
+    "location": null,
+    "experience_years": 3,
+    "skills": [
+        "java",
+        "c++"
+    ],
+    "education": null,
+    "current_role": null
+}

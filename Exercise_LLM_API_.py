@@ -562,7 +562,7 @@ def display():
     print("Python Program Stopped\n")
 display()
 
-"""
+
 
 # 15 
 import json
@@ -750,6 +750,234 @@ def code_prompt_function(System_instructions):
     content="\n".join(code_line_list)
     print("-----------------Code--exit---------------------")
     result=Api_key(content,System_instructions)
+    if result is not None and result is not False:
+        conversation_save_function(result,content)
+        print(result)
+    return
+
+def history_display_function():
+    print("-"*50)
+    if os.path.exists("history.jsonl"):
+         with open("history.jsonl","r") as file:
+            for line in file:
+                line=line.strip()
+                if line=="":
+                    continue
+                message=json.loads(line)
+                if message['role']=="user":
+                    print("\n")
+                print(f"{message['role']}  :  {message['content']}")
+    return
+
+def conversation_save_function(result,data):
+    global History_lines
+    History_lines+=2
+    if os.path.exists("history.jsonl"):
+         with open("history.jsonl","a") as file:
+             if result is not None and result is not False:
+                json.dump({
+                    "role":"user",
+                    "content":data
+                    },file)
+                file.write("\n")
+                json.dump({
+                    "role":"Assistant",
+                    "content":result
+                    },file)
+                file.write("\n")
+
+if Program_check_function():
+    Switch_case()
+"""
+
+
+
+
+
+
+
+
+import json
+import os
+import time
+import logging
+import ollama
+count=1     
+Ollama_Model_Name="llama3.2:3b"
+History_lines=0
+logging.basicConfig(
+    filename="app.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+
+)
+
+def previous_content():
+    try:
+        content=""
+        with open("history.jsonl","r") as file:
+            for line in file:
+                line = line.strip()
+                if line == "":
+                    continue                                    #also use json .dumps to make the append list into the string
+                message=json.loads(line)
+                content += f"{message['role']} : {message['content']} \n"                    
+                if message["role"]=="Assistant":
+                     content+="\n"
+        return content
+    except Exception as Error:
+        logging.error(f"Previous content loading failed: {Error}")
+        return None
+
+def Ollama_model(input_data,System_instructions):
+
+    global count
+    history=previous_content()
+    try:
+
+        data=history +"\n\n"+input_data
+        response=ollama.chat(
+            model=Ollama_Model_Name,
+            messages=[
+                {"role": "system", "content": System_instructions},
+                {"role": "user", "content": data}
+            ]
+            )
+        # print("output :\n",response.txt)
+        return response.message.content
+    except Exception as error:
+         if count<4:
+            print(f"Attempt {count} failed")
+            logging.error(f"Error :Ollama Request failed  Attempt {count} : {error}")
+            count +=1
+            print("Retrying...")
+            time.sleep(3)
+            return Ollama_model(input_data, System_instructions)
+         else:
+             print("Error :Ollama Request failed")
+             return False
+
+def Switch_case():
+    x=0
+    while True:
+        print("-"*50)
+        print("1. Answer questions")
+        print("2. Explain code")
+        print("3. Generate code")
+        print("4. Summarize text")
+        print("5. History")
+        print("6. Clear Current History")
+        print("7. Model Selection")
+        print("8. EXIT")
+        print("-"*50)
+        x=int(input("Enter Your Choice : "))
+        match x:
+            case 1:
+                prompt_function("User Ask Question You have to answer it in sufficient content")
+            case 2:
+                code_prompt_function("Explain the code in detail not overexplained")
+            case 3:
+                prompt_function("Generate a code ")
+            case 4:    
+                prompt_function("Summarize the text in 4-5 Lines ")            
+            case 5:    
+                history_display_function()            
+            case 6:    
+                Clear_Current_history()            
+            case 7:
+                global Model_Name
+                print("-"*50)    
+                print(f"Current Model : {Ollama_Model_Name}")
+                Model_Name=input("Enter the Model Name :")
+                print("Model Upgrated Sucessfully ")
+                print("-"*50)
+            case 8:
+                logging.info("User logged out")
+                print("\nThanks for your conversation\n")
+                logging.info("Python Program Stopped")
+                print("Python Program Stopped\n")
+                break
+            case _:
+                print("Invalid input")
+    return
+
+def Program_check_function():
+    print("-"*50)
+    logging.info("Program Started")
+    print("Program Started")
+    time.sleep(3)
+    print("-"*50)
+    logging.info("User logged in ")
+    print("User logged in ")
+    if previous_content() is not None:
+        logging.info("File Loaded Sucessfully")
+        print("File Loaded Sucessfully")
+    else:
+        print("-"*50)
+        print("Python Program Stopped\n")
+        logging.info("Python Program Stopped")
+        print("File Error / Unable to find the file")
+        return False
+    print("-"*50)
+    print("Checking API Request :")
+    time.sleep(3)
+
+    if Ollama_model("a","Reply only with OK") is False:
+        logging.error("Ollama model failed")
+        return False
+    else:
+        logging.info("Ollama model Connection Build Sucessfully")
+        print("Ollama model Connection Build Sucessfully")
+    return True
+
+def Clear_Current_history():
+    global History_lines
+    if History_lines==0:
+        print("No Current history in file to delete")
+    else:
+    
+        with open("history.jsonl","r") as file:
+            lines=file.readlines()
+            if len(lines)<= History_lines:
+                lines=[]
+            else:
+                lines=lines[:-History_lines]
+        with open("history.jsonl","w") as file:
+            file.writelines(lines)
+                    
+        print("Current History deleted Sucessfully")
+        History_lines=0
+    return
+
+def prompt_function(System_instructions):
+    global count
+    input_data=""
+    result=""
+    while True:
+        print("-"*50)
+        input_data=input("ENTER THE TEXT : ")
+        if input_data.strip().lower() in ["end", "exit"]:
+            return
+        else:
+            result=Ollama_model(input_data,System_instructions)
+        if result is not None and result is not False:
+         print(result)
+         conversation_save_function(result,input_data)
+        count=1
+
+def code_prompt_function(System_instructions):
+    global count
+    code_line_list=[]
+    print("-"*50)
+    print("Enter the code here :\n\n")
+    while True:
+        line=input()
+        if line.strip().lower() in ["end", "exit"]:
+            break
+        code_line_list.append(line)
+    content="\n".join(code_line_list)
+    print("-----------------Code--exit---------------------")
+    result=Ollama_model(content,System_instructions)
     if result is not None and result is not False:
         conversation_save_function(result,content)
         print(result)
