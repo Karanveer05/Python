@@ -1,0 +1,14 @@
+{
+    "Invoice_number": "INV-9087",
+    "Customer": "ABC Technologies",
+    "invoice_date": "01-09-2026",
+    "items": [
+        {
+            "Product": "Laptop",
+            "Quantity": 0,
+            "Unit_Price": 65000.0
+        }
+    ],
+    "Tax_percentage": 0.0,
+    "total_amount": 0.0
+}
