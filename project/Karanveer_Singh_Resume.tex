@@ -1,0 +1,91 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,top=0.45in,bottom=0.45in,left=0.55in,right=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{ragged2e}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\definecolor{navy}{HTML}{163A5F}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\urlstyle{same}
+
+\titleformat{\section}
+  {\color{navy}\bfseries\large}
+  {}{0pt}{}[\vspace{-4pt}\color{navy}\rule{\linewidth}{0.5pt}]
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+
+\setlist[itemize]{leftmargin=13pt,itemsep=1pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+
+\newcommand{\resumeEntry}[4]{%
+  \begin{tabularx}{\linewidth}{@{}Xr@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}\vspace{-2pt}
+}
+
+\newcommand{\project}[3]{%
+  \textbf{\href{#2}{#1}} \hfill \textit{#3}\\[-1pt]
+}
+
+\begin{document}
+
+\begin{center}
+    {\fontsize{22}{24}\selectfont\bfseries Karanveer Singh}\\[3pt]
+    Sangrur, Punjab, India \;|\; +91 98551 37441 \;|\;
+    \href{mailto:karanveersingh94635@gmail.com}{karanveersingh94635@gmail.com}\\[2pt]
+    \href{https://www.linkedin.com/in/karanveer-singh-926a0b287}{LinkedIn} \;|\;
+    \href{https://github.com/Karanveer05}{GitHub} \;|\;
+    \href{https://medium.com/@karanveernetsquaresoftwares}{Medium}
+\end{center}
+\vspace{-4pt}
+
+\section{PROFESSIONAL SUMMARY}
+Computer Science undergraduate focused on Python, Machine Learning, NLP, and Generative AI. Building practical LLM-powered applications with Gemini, Ollama, Hugging Face Transformers, sentence embeddings, and Streamlit, with a strong interest in AI/ML and Generative AI engineering roles.
+
+\section{EDUCATION}
+\resumeEntry{Guru Nanak Dev Engineering College}{Ludhiana, India}{Bachelor of Technology in Computer Science and Engineering}{Oct 2023 -- May 2027}
+\textbf{Relevant Coursework:} Machine Learning, Natural Language Processing, Data Structures \& Algorithms, Object-Oriented Programming, Operating Systems.
+
+\section{TECHNICAL SKILLS}
+\textbf{Languages:} Python, C, C++ \\
+\textbf{AI/ML:} Machine Learning, NLP, Scikit-learn, Pandas, NumPy, Hugging Face Transformers, DistilBERT, Sentence Transformers \\
+\textbf{Generative AI:} LLM APIs, Google Gemini API, Ollama, Prompt Engineering, Embeddings, RAG fundamentals, Conversation Memory \\
+\textbf{Tools:} Streamlit, Git/GitHub, VS Code, Linux, JSON/JSONL, Python Logging, python-dotenv
+
+\section{EXPERIENCE}
+\resumeEntry{NetSquare Softwares}{India}{Intern}{Current}
+\begin{itemize}
+    \item Working on hands-on Python, Machine Learning, NLP, and Generative AI exercises and applications, including LLM APIs and Transformer-based workflows.
+    \item Documenting technical learning through project READMEs and beginner-focused articles covering ML, NLP, Hugging Face, and LLM development.
+\end{itemize}
+
+\section{PROJECTS}
+\project{AI Developer Assistant -- Gemini}{https://github.com/Karanveer05/AI-Developer-Assistant-CLI}{Python, Streamlit, Gemini API}
+\begin{itemize}
+    \item Built an LLM assistant for Q\&A, code explanation/generation, and summarization with JSONL conversation memory, model selection, retry handling, logging, and environment-based API key management.
+\end{itemize}
+
+\project{Local AI Developer Assistant -- Ollama}{https://github.com/Karanveer05/Ollama-ChatGPT-Style-Assistant}{Python, Streamlit, Ollama}
+\begin{itemize}
+    \item Developed a ChatGPT-style local assistant with streaming responses, selectable installed models, persistent chats, multiple task modes, logging, and local LLM inference using Ollama.
+\end{itemize}
+
+\project{Movie Recommendation System}{https://github.com/Karanveer05/MOVIE_RECOMMENDATION_Project}{Python, NLP, Sentence Transformers}
+\begin{itemize}
+    \item Implemented semantic recommendations using sentence embeddings, cosine similarity, genre filtering, closest-title matching, and a Streamlit interface that returns the top five similar movies.
+\end{itemize}
+
+\section{TECHNICAL WRITING}
+Published beginner-focused articles on \href{https://medium.com/@karanveernetsquaresoftwares}{Medium} covering LLM APIs, Hugging Face pipelines, DistilBERT fine-tuning, NLP, machine learning, Python, and clean-code practices.
+
+\end{document}
